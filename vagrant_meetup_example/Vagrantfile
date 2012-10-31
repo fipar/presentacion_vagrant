@@ -13,7 +13,7 @@ Vagrant::Config.run do |config|
   	vm.cpu_execution_cap = 50
   end
  
-  config.vm.share_folder "packages", "/media/packages", "/Users/fernandoipar/vagrant_meetup/packages/", :create=>true
+  config.vm.share_folder "packages", "/media/packages", "~/vagrant_meetup_example/packages/", :create=>true
 
   # puppet provisioner
   config.vm.provision :puppet do |config_puppet|
