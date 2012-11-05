@@ -72,6 +72,7 @@ The one slide Vagrant tutorial &copy;
 
     $ cd <directorio donde existe Vagrantfile>
     $ vagrant up
+	$ vagrant ssh
    
 !
 
